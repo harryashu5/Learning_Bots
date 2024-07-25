@@ -6,13 +6,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = 
-API_HASH = ""
-BOT_TOKEN = ""
-MONGO_DB_URI = ""
+API_ID = 28696702
+API_HASH = "c13657baec6d4122ba90a16bd0900e60"
+BOT_TOKEN = "6715273978:AAHa51W5NdCfIWv7wDwhsIt6NArjr4RVlso"
+MONGO_DB_URI = "mongodb+srv://ronnie271713:ronnie271713@cluster0.oiz3a3s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-LOG_GROUP_ID = 
-OWNER_ID = 
+LOG_GROUP_ID = -1002137616770
+OWNER_ID = 7129262488
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -29,8 +29,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/harryfeel")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ishuumusic")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -52,7 +52,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = ""
+STRING1 = "BQG14H4AEXKONOaSUGElRhvJaL-HleHpudNkv_7QX8KQG5gkCUHPwHorSXWdgwzZp5xv2KXkFq3-F5xBz87hGY24xZYC4sIt8oOEWzNcII4qxvyYDXf3U09PGatVDNgBkamzi6CNoLHcJz6w94lDpSHhVYMck7gw3_K70-F8cioe4WIToMMpXFA13y-3Vj-L0Dbqf5eXHSlt7Y8lIJufIHT1hXU86ExTMBtuhUH7MBWfnglS4BuiuL_KTS03rcVAvxIV_SMu9nXBiPeHxjar2xulAe3TLPnjPASFsQfbL9lvzZNvkPFPIftxU7HV67hkfbWsHL3bMb57169_AsmGno92rRsIIgAAAAGo7-mYAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
